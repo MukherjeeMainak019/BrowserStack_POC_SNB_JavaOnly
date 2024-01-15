@@ -4,7 +4,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Collections;
-import java.util.HashMap;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.interactions.Pause;
@@ -22,7 +21,7 @@ public class IOSBase {
 	
 	public static AppiumDriver driver;
 	public XCUITestOptions options;
-	public HashMap<String, Object> browserstackOptions;
+	
 
 	@BeforeMethod
 	public void setUp() throws MalformedURLException
@@ -30,8 +29,7 @@ public class IOSBase {
 		String userName = "mainakmukherjee_Qk5gaU";
 		String accessKey= "xptzyxhTpgWqRzWZFZvX";
 
-		browserstackOptions = new HashMap<String, Object>();
-		browserstackOptions.put("networkLogs", "true");
+		
 
 		options = new XCUITestOptions();
 		options.setCapability("platformName", "ios");
@@ -40,7 +38,7 @@ public class IOSBase {
 		options.setCapability("project", "iOS Project");
 		options.setCapability("build", "iOS");
 		options.setCapability("name", "Bstack-[Java] Sample iOS Test");
-		options.setCapability("interactiveDebugging", true);
+		options.setCapability("browserstack.debug", true);
 		options.setCapability("app", "bs://444bd0308813ae0dc236f8cd461c02d3afa7901d"); //bs://sample.app
 		driver = new IOSDriver(
 				new URL("https://"+userName+ ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"), options);

@@ -30,8 +30,7 @@ public class AndroidBase {
 		String userName = "mainakmukherjee_Qk5gaU";
 		String accessKey= "xptzyxhTpgWqRzWZFZvX";
 
-		browserstackOptions = new HashMap<String, Object>();
-		browserstackOptions.put("networkLogs", "true");
+		
 
 		options = new UiAutomator2Options();
 		options.setCapability("platformName", "android");
@@ -40,10 +39,10 @@ public class AndroidBase {
 		options.setCapability("project", "Android Project");
 		options.setCapability("build", "Android");
 		options.setCapability("name", "Bstack-[Java] Sample Test Android");
+		options.setCapability("browserstack.debug", true);
 		options.setCapability("interactiveDebugging", true);
-		options.setCapability("bstack:options", browserstackOptions);
-		options.setCapability("app", "bs://4c232d3347c3b3cb1c05663d9cc1004130a70a4c");//wiki app - network logs
-//		options.setCapability("app", "bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10"); // API Demo App
+//		options.setCapability("app", "bs://4c232d3347c3b3cb1c05663d9cc1004130a70a4c");//wiki app - network logs
+		options.setCapability("app", "bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10"); // API Demo App
 //		capabilities.setCapability("app", "bs://a3bfc2babf21d31209673df37986e9f2df8cc884"); //General Store App
 //		capabilities.setCapability("app", "bs://sample.app"); //B_Stack Demo App
 

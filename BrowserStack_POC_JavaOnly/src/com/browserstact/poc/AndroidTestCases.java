@@ -7,7 +7,7 @@ import io.appium.java_client.AppiumBy;
 
 public class AndroidTestCases extends AndroidBase {
 
-	@Test
+	@Test(enabled = true)
 	public void tc_001()
 	{
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -17,7 +17,7 @@ public class AndroidTestCases extends AndroidBase {
 
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void tc_002() throws InterruptedException
 	{
 		{
@@ -34,7 +34,7 @@ public class AndroidTestCases extends AndroidBase {
 		
 
 	}
-	@Test
+	@Test(enabled = false)
 	public void tc_003() throws InterruptedException
 	{
 		{
@@ -53,7 +53,7 @@ public class AndroidTestCases extends AndroidBase {
 		
 
 	}
-	@Test
+	@Test(enabled = false)
 	public void tc_004_wiki() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Search Wikipedia']")).click();

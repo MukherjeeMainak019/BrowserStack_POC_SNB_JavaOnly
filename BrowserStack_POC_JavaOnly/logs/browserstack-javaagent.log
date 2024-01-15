@@ -1,0 +1,43 @@
+19:14:27.400 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+19:14:27.403 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:14:27.607 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:14:27.867 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - java but Framework provided in browserstack.yml - testng
+19:14:27.868 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:14:28.493 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://444bd0308813ae0dc236f8cd461c02d3afa7901d]
+19:14:28.493 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:14:33.602 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:14:44.100 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/aybayftp2mslgiph4e9fiytzcp67h5fjpz8bd67k to view build report, insights, and many more debugging information all at one place!
+
+19:16:18.492 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+19:16:18.496 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:16:18.708 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:16:18.969 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:16:19.345 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10]
+19:16:19.345 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+19:16:22.060 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+19:16:22.723 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:16:29.904 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:16:30.143 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:16:33.458 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+19:19:56.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+19:19:56.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:19:56.691 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:19:56.945 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:19:57.480 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10]
+19:19:57.480 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+19:20:00.287 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+19:20:00.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:20:08.293 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:20:08.549 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:20:11.668 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+19:23:58.984 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+19:23:58.987 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:23:59.197 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:23:59.463 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:24:00.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10]
+19:24:00.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+19:24:02.786 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+19:24:03.269 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:24:10.564 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/mainakmukherjee/git/BrowserStack_POC_SNB_JavaOnly/BrowserStack_POC_JavaOnly/browserstack.yml
+19:24:10.844 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:24:13.918 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity

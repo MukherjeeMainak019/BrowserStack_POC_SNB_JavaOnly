@@ -21,7 +21,8 @@ public class IOSTestCases extends IOSBase {
 		driver.findElement(By.xpath("//XCUIElementTypeButton[@name='UI Elements']")).click();
 		Assert.assertTrue(true);
 	}
-	@Test
+	
+	@Test(enabled = false) 
 	public void tc002() throws MalformedURLException, InterruptedException
 	{
 		driver.findElement(By.xpath("//XCUIElementTypeImage[@name='nav_webview']")).click();

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">350</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.browserstact.poc.AndroidTestCases</td><td><a href="#m0">setUp</a></td><td rowspan="1">1704981254918</td><td rowspan="1">306</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.browserstact.poc.AndroidTestCases</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1704981255244</td><td rowspan="1">-1704981255244</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.browserstact.poc.AndroidTestCases</td><td><a href="#m2">tc_001</a></td><td rowspan="1">1704981255238</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.browserstact.poc.AndroidTestCases#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
+Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	... 38 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.browserstact.poc.AndroidTestCases#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.browserstact.poc.AndroidTestCases#tc_001</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
+Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	... 38 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
