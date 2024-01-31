@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 11 19:24:14 IST 2024</td>
+<td>Started on:</td><td>Tue Jan 30 16:21:52 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (350 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2473 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.browserstact.poc.AndroidTestCases.setUp()'><b>setUp</b><br>Test class: com.browserstact.poc.AndroidTestCases</td>
+<td title='com.browserstact.poc.WireMock.setup()'><b>setup</b><br>Test class: com.browserstact.poc.WireMock</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
-Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:4d91:d834:7bb3:12b2%en0&apos;
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at com.browserstact.poc.WireMock.setup(WireMock.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,17 +93,9 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -122,35 +109,57 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	... 38 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace979532928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace979532928'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
-Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:137)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:177)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	... 30 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: Error : Platform and Browser not valid.
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:146)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	... 39 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace422409467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace422409467'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:4d91:d834:7bb3:12b2%en0&apos;
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at com.browserstact.poc.WireMock.setup(WireMock.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,17 +168,9 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -183,23 +184,50 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:137)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:177)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	... 38 more
+	... 30 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: Error : Platform and Browser not valid.
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:146)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	... 39 more
 </pre></div></td>
-<td>0</td>
-<td>com.browserstact.poc.AndroidTestCases@4b1abd11</td></tr>
+<td>2</td>
+<td>com.browserstact.poc.WireMock@fb9c7aa</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -209,10 +237,10 @@ Caused by: java.lang.ClassCastException: class com.google.common.collect.Regular
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.browserstact.poc.AndroidTestCases.tearDown()'><b>tearDown</b><br>Test class: com.browserstact.poc.AndroidTestCases</td>
+<td title='com.browserstact.poc.WireMock.teardown()'><b>teardown</b><br>Test class: com.browserstact.poc.WireMock</td>
 <td></td>
-<td>-1704981255</td>
-<td>com.browserstact.poc.AndroidTestCases@4b1abd11</td></tr>
+<td>-1706611915</td>
+<td>com.browserstact.poc.WireMock@fb9c7aa</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -222,21 +250,16 @@ Caused by: java.lang.ClassCastException: class com.google.common.collect.Regular
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.browserstact.poc.AndroidTestCases.tc_001()'><b>tc_001</b><br>Test class: com.browserstact.poc.AndroidTestCases</td>
+<td title='com.browserstact.poc.WireMock.tc_001()'><b>tc_001</b><br>Test class: com.browserstact.poc.WireMock</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
-Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:4d91:d834:7bb3:12b2%en0&apos;
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at com.browserstact.poc.WireMock.setup(WireMock.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -245,17 +268,9 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -269,35 +284,57 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	... 38 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1318313145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1318313145'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:2568:57dd:1f3b:8f5d%en0&apos;
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10, appium:automationName=UIAutomator2, appium:browserstack.debug=true, appium:build=Android, appium:deviceName=Samsung Galaxy S22 Ultra, appium:interactiveDebugging=true, appium:name=Bstack-[Java] Sample Test Android, appium:os_version=12, appium:project=Android Project, browserVersion=null, bstack:options={browserstackSDK=java-javaagent/1.12.7, hostName=Mainaks-MacBook-Air.local, buildName=browserstack build, debug=true, source=java:appium-eclipse:v1.0.3, userName=mainakmukherjee_Qk5gaU, buildIdentifier=#23, consoleLogs=errors, networkLogs=true, deviceName=Samsung Galaxy S22 Ultra, local=true, accessKey=xptzyxhTpgWqRzWZFZvX, browserVersion=null, platformVersion=12, localIdentifier=11_Jan_1923_Mainaks_MacBook_Air_local_HJ6u, projectName=BrowserStack Sample}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}}]
-Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName: UIAutomator2, appium:browserstack.debug: true, appium:build: Android, appium:deviceName: Samsung Galaxy S22 Ultra, appium:interactiveDebugging: true, appium:name: Bstack-[Java] Sample Test A..., appium:os_version: 12, appium:project: Android Project, browserVersion: null, bstack:options: {accessKey: xptzyxhTpgWqRzWZFZvX, browserVersion: null, browserstackSDK: java-javaagent/1.12.7, buildIdentifier: #23, buildName: browserstack build, consoleLogs: errors, debug: true, deviceName: Samsung Galaxy S22 Ultra, hostName: Mainaks-MacBook-Air.local, local: true, localIdentifier: 11_Jan_1923_Mainaks_MacBook..., networkLogs: true, platformVersion: 12, projectName: BrowserStack Sample, source: java:appium-eclipse:v1.0.3, userName: mainakmukherjee_Qk5gaU}, platformName: ANDROID}
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:137)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:177)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	... 30 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: Error : Platform and Browser not valid.
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:146)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	... 39 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace153443333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace153443333'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2405:201:100f:388a:4d91:d834:7bb3:12b2%en0&apos;
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at com.browserstact.poc.AndroidBase.setUp(AndroidBase.java:49)
+	at com.browserstact.poc.WireMock.setup(WireMock.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -306,17 +343,9 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -330,23 +359,50 @@ Capabilities {appium:app: bs://30a4d280756c5db63f0d5b..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassCastException: class com.google.common.collect.RegularImmutableMap cannot be cast to class org.openqa.selenium.Capabilities (com.google.common.collect.RegularImmutableMap and org.openqa.selenium.Capabilities are in unnamed module of loader &apos;app&apos;)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:116)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:137)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:177)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	... 38 more
+	... 30 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: Error : Platform and Browser not valid.
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: AndroidDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:146)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	... 39 more
 </pre></div></td>
 <td>0</td>
-<td>com.browserstact.poc.AndroidTestCases@4b1abd11</td></tr>
+<td>com.browserstact.poc.WireMock@fb9c7aa</td></tr>
 </table><p>
 </body>
 </html>

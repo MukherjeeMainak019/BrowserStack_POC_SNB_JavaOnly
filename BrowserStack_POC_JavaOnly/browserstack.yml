@@ -22,7 +22,7 @@ buildName: browserstack build
 buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${expression}
 # Set `framework` of your test suite. Example, `testng`, `cucumber`, `cucumber-testng`
 # This property is needed to send test context to BrowserStack (test name, status)
-framework: java
+framework: testng
 # =======================================
 # App
 # =======================================
@@ -32,7 +32,7 @@ framework: java
 # OR
 # app: 'bs://<app-id>' # App URL returned when uploading the app to BrowserStack manually
 # Visit https://www.browserstack.com/docs/app-automate/appium/set-up-tests/specify-app for more options
-app: bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10
+app: bs://4c232d3347c3b3cb1c05663d9cc1004130a70a4c
 
 # =======================================
 # Platforms (Browsers / Devices to test)
@@ -40,8 +40,8 @@ app: bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - deviceName: Samsung Galaxy S22 Ultra
-    platformVersion: 12
+  - deviceName: Google Pixel 6 Pro
+    platformVersion: 13.0
     platformName: Android
 
 

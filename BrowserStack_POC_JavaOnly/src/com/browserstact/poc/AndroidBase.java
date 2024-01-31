@@ -23,9 +23,12 @@ public class AndroidBase {
 	public static AppiumDriver driver;
 	public UiAutomator2Options options;
 	public HashMap<String, Object> browserstackOptions;
-
+	
+	WireMock wireMock = new WireMock();
+	
+	
 	@BeforeMethod
-	public void setUp() throws MalformedURLException
+	public void androidSetUp() throws MalformedURLException
 	{
 		String userName = "mainakmukherjee_Qk5gaU";
 		String accessKey= "xptzyxhTpgWqRzWZFZvX";
@@ -34,15 +37,15 @@ public class AndroidBase {
 
 		options = new UiAutomator2Options();
 		options.setCapability("platformName", "android");
-		options.setCapability("deviceName", "Samsung Galaxy S22 Ultra");
-		options.setCapability("os_version", "12");
+		options.setCapability("deviceName", "Pixel 6 Pro");
+		options.setCapability("os_version", "13");
 		options.setCapability("project", "Android Project");
 		options.setCapability("build", "Android");
 		options.setCapability("name", "Bstack-[Java] Sample Test Android");
-		options.setCapability("browserstack.debug", true);
+//		options.setCapability("browserstack.debug", true);
 		options.setCapability("interactiveDebugging", true);
 //		options.setCapability("app", "bs://4c232d3347c3b3cb1c05663d9cc1004130a70a4c");//wiki app - network logs
-		options.setCapability("app", "bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10"); // API Demo App
+//		options.setCapability("app", "bs://30a4d280756c5db63f0d5be6fffe4c72de1c1d10"); // API Demo App
 //		capabilities.setCapability("app", "bs://a3bfc2babf21d31209673df37986e9f2df8cc884"); //General Store App
 //		capabilities.setCapability("app", "bs://sample.app"); //B_Stack Demo App
 
@@ -50,6 +53,8 @@ public class AndroidBase {
 				new URL("https://"+userName+ ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"), options);
 
 		System.out.println("Driver launched successfully");
+		
+		wireMock.wireMockSetup();
 	}
 
 	@AfterMethod
@@ -57,6 +62,8 @@ public class AndroidBase {
 	{
 		driver.quit();
 		System.out.println("Driver quit successfully");
+		
+		wireMock.stopServer();
 	}
 
 	//Reusbale Android Gestures

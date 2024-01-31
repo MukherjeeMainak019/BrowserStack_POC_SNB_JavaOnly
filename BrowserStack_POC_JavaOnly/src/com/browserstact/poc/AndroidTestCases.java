@@ -7,7 +7,7 @@ import io.appium.java_client.AppiumBy;
 
 public class AndroidTestCases extends AndroidBase {
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void tc_001()
 	{
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -53,17 +53,21 @@ public class AndroidTestCases extends AndroidBase {
 		
 
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void tc_004_wiki() throws InterruptedException
 	{
+		wireMock.allServeEvents();
+		
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Search Wikipedia']")).click();
-		Thread.sleep(3);
+		Thread.sleep(5);
 		driver.findElement(By.xpath("//android.widget.AutoCompleteTextView[@text='Search…']")).click();
-		Thread.sleep(3);
+		Thread.sleep(5);
 		driver.findElement(By.xpath("//android.widget.AutoCompleteTextView[@text='Search…']")).sendKeys("Saudi National Bank");
-		Thread.sleep(3);
+		Thread.sleep(5);
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Saudi National Bank']")).click();
-		Thread.sleep(3);
+		Thread.sleep(5);
+		
+		wireMock.allServeEvents();
 	}
 	
 }
