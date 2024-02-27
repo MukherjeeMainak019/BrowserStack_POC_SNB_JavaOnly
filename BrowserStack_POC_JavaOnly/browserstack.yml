@@ -40,8 +40,8 @@ app: bs://4c232d3347c3b3cb1c05663d9cc1004130a70a4c
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - deviceName: Google Pixel 6 Pro
-    platformVersion: 13.0
+  - deviceName: Samsung Galaxy S20
+    platformVersion: 10.0
     platformName: Android
 
 
@@ -70,9 +70,12 @@ source: java:appium-eclipse:v1.0.3
 browserstackLocal: true # <boolean> (Default false)
 
 # Options to be passed to BrowserStack local in-case of advanced configurations
-# browserStackLocalOptions:
+browserStackLocalOptions:
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
-  # forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
+  forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
+  forceProxy: true
+  localProxyHost: 127.0.0.1
+  localProxyPort: 8888
   # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections
   
 # ===================

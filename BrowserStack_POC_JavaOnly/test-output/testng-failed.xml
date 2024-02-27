@@ -4,13 +4,13 @@
   <test thread-count="1" name="Default test-0(failed)">
     <parameter name="platform" value="0"/>
     <classes>
-      <class name="com.browserstact.poc.AndroidTestCases">
+      <class name="com.browserstack.poc.AndroidTestCases">
         <methods>
-          <include name="androidSetUp"/>
           <include name="tc_004_wiki"/>
           <include name="tearDown"/>
+          <include name="androidSetUp"/>
         </methods>
-      </class> <!-- com.browserstact.poc.AndroidTestCases -->
+      </class> <!-- com.browserstack.poc.AndroidTestCases -->
     </classes>
   </test> <!-- Default test-0(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

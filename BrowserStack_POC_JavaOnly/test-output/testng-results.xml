@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-31T16:57:43 IST" name="Default suite" finished-at="2024-01-31T16:58:34 IST" duration-ms="51646">
+  <suite started-at="2024-02-13T13:49:30 IST" name="Default suite" finished-at="2024-02-13T13:50:06 IST" duration-ms="36388">
     <groups>
     </groups>
-    <test started-at="2024-01-31T16:57:43 IST" name="Default test-0" finished-at="2024-01-31T16:58:34 IST" duration-ms="51646">
-      <class name="com.browserstact.poc.AndroidTestCases">
-        <test-method is-config="true" signature="androidSetUp()[pri:0, instance:com.browserstact.poc.AndroidTestCases@ab20d7c]" started-at="2024-01-31T16:57:43 IST" name="androidSetUp" finished-at="2024-01-31T16:58:24 IST" duration-ms="41300" status="PASS">
+    <test started-at="2024-02-13T13:49:30 IST" name="Default test-0" finished-at="2024-02-13T13:50:06 IST" duration-ms="36388">
+      <class name="com.browserstack.poc.AndroidTestCases">
+        <test-method is-config="true" signature="androidSetUp()[pri:0, instance:com.browserstack.poc.AndroidTestCases@724c5cbe]" started-at="2024-02-13T13:49:30 IST" name="androidSetUp" finished-at="2024-02-13T13:49:55 IST" duration-ms="25144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- androidSetUp -->
-        <test-method signature="tc_004_wiki()[pri:0, instance:com.browserstact.poc.AndroidTestCases@ab20d7c]" started-at="2024-01-31T16:58:24 IST" name="tc_004_wiki" finished-at="2024-01-31T16:58:32 IST" duration-ms="7458" status="PASS">
+        <test-method signature="tc_004_wiki()[pri:0, instance:com.browserstack.poc.AndroidTestCases@724c5cbe]" started-at="2024-02-13T13:49:55 IST" name="tc_004_wiki" finished-at="2024-02-13T13:50:01 IST" duration-ms="6309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_wiki -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstact.poc.AndroidTestCases@ab20d7c]" started-at="2024-01-31T16:58:32 IST" name="tearDown" finished-at="2024-01-31T16:58:34 IST" duration-ms="2683" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.poc.AndroidTestCases@724c5cbe]" started-at="2024-02-13T13:50:01 IST" name="tearDown" finished-at="2024-02-13T13:50:06 IST" duration-ms="4729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstact.poc.AndroidTestCases -->
+      </class> <!-- com.browserstack.poc.AndroidTestCases -->
     </test> <!-- Default test-0 -->
   </suite> <!-- Default suite -->
 </testng-results>
